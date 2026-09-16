@@ -42,5 +42,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "web-server"
+    Environment = "test"
   }
 }
